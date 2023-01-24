@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.overall {
+    width: 85%;
+    margin: auto;
+    padding: 0, 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding-top: 20px;
+    color: white;
+}
+
+.logo {
+    position: relative;
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    color: rgb(240, 1, 1);
+}
+
+.options {
+    margin-top: 30px;
+    color: white;
+}
+
+.opt {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: fantasy;
+    color: white;
+    letter-spacing: 0.5px;
+    transition: all .4s ease-in-out;
+}
+
+.opt:hover {
+    color: red;
+}
+
+.btn {
+    background-color: rgb(189, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+    border: 2px solid transparent;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    color: black;
+    background-color: white;
+    font-family: fantasy;
+}
+
+.hireme:checked {
+    color: red;
+}
+
+.abme {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.main {
+    margin-left: 50px;
+    color: white;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.main:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.exc {
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.exc:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.name {
+    font-family: fantasy;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+span {
+    color: rgb(189, 0, 0);
+}
+
+.me {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about {
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.img1 {
+    border-radius: 50%;
+    margin-top: -30px;
+    transition: all .4s ease-in-out;
+}
+
+.con {
+    background-color: rgb(189, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: 45%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.con:hover {
+    background-color: white;
+    color: black;
+}
+
+.con:checked {
+    color: red;
+}
+
+.hire {
+    background-color: rgb(49, 48, 49);
+    position: relative;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: inset;
+    margin-bottom: 30px;
+}
+
+.let {
+    font-family: arial;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hireme {
+    background-color: rgb(189, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: arial;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hireme:checked {
+    color: red;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(49, 48, 49);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.socialmedia {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.myalias {
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: fantasy;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.myalias:hover {
+    color: rgb(240, 1, 1);
+}
+
+label {
+    font-size: 20px;
+    margin-top: 30px;
+    transition: all .4s ease-in-out;
+}
+
+label:hover {
+    color: red;
+}
+
+label:checked {
+    color: black;
+}
+
+i {
+    padding-left: 10px;
+}
+
+.projectb {
+    background-color: rgb(189, 0, 0);
+    border-radius: 30px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    color: white;
+    margin-left: ;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.projectb:checked {
+    color: red;
+}
